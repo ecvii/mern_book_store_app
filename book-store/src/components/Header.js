@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AppBar, Tab, Tabs, Toolbar } from "@mui/material";
-// import { Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import BookmarkAddIcon from "@mui/icons-material/BookmarkAdd";
@@ -13,11 +13,11 @@ const Header = () => {
     <div>
       <AppBar sx={{ backgroundColor: "darkslategrey" }} position="sticky">
         <Toolbar>
-          {/* <NavLink to="/">
+          {/* <NavLink to="/"> */}
             <Typography>
-              <HomeIcon />
+              MERN BASIC CRUD APP
             </Typography>
-          </NavLink> */}
+          {/* </NavLink> */}
 
           <Tabs
             sx={{ ml: "auto" }}
